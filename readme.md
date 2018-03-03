@@ -1,5 +1,7 @@
 # cz-delta
 
+[![Build Status](https://travis-ci.org/oscarekholm/cz-delta.svg?branch=master)](https://travis-ci.org/oscarekholm/cz-delta) [![Coverage Status](https://coveralls.io/repos/github/oscarekholm/cz-delta/badge.svg?branch=master)](https://coveralls.io/github/oscarekholm/cz-delta?branch=master)
+
 I felt I needed a ricer commitizen config for my personal projects, so I
 made this, using Greek letters I chose semi-arbitrarily so it looks like
 I actually know something. 🕶

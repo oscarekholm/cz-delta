@@ -6,16 +6,16 @@
   "author": "Oscar Ekholm <i@oscarekholm.se>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "dependencies": {},
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "jest": "^22.4.2"
   },
   "jest": {
     "collectCoverage": true
   },
-
   "config": {
     "commitizen": {
       "path": "cz-delta"
