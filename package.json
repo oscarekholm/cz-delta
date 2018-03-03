@@ -1,0 +1,24 @@
+{
+  "name": "cz-delta",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Oscar Ekholm <i@oscarekholm.se>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+
+  "config": {
+    "commitizen": {
+      "path": "cz-delta"
+    }
+  }
+}
